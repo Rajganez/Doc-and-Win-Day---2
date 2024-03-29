@@ -4,7 +4,7 @@ var fsname = document.getElementById('fsname').value;
 var lsname = document.getElementById('lsname').value;
 var add = document.getElementById('add').value;
 var temp_gender = document.getElementsByName('genders');
-for (var i = 0; i< temp_gender.length ; i++) {
+for (var i = 0; i< temp_gender.length ; i++) {  
     if (temp_gender[i].checked) {
         localStorage.setItem('gender', temp_gender[i].value);
     }
